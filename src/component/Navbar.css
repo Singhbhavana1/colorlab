@@ -1,0 +1,41 @@
+.navbar{
+
+      
+     
+      width: 90%;
+     
+
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    width: 95%;
+  }
+}
+
+/* Small tablets / large phones: 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    padding: 0.75rem 1.5rem;
+    width: 15%;
+  }
+}
+
+/* Medium tablets / iPads: 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    padding: 1rem 2rem;
+    width: 90%;
+  }
+}
+
+/* Large screens / desktops: 1025px and above */
+@media (min-width: 1025px) {
+  .navbar {
+    width: 90%;
+    padding: 1rem 2rem;
+  }
+}

@@ -21,7 +21,7 @@ function App() {
     <div className="flex justify-center">
       <div className="">
         <Navbar className="h-10" />
-        <div className="sm:flex gap-2">
+      <div className="block md:flex lg:block xl:flex">
           <div className="mx-5 my-5 px-5 py-2 rounded-2xl backdrop-blur-lg bg-white/30 border dark:border-slate-800  dark:bg-[#111827] shadow-md dark:shadow-inner dark:shadow-blue-100 ">
             <div className="sm:flex justify-between ">
               <LeftSide className="" />

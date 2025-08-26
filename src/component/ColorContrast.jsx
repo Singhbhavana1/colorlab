@@ -54,7 +54,7 @@ useEffect(() => {
   };
 
   return (
-    <div className="dark:text-white h-48">
+    <div className="dark:text-white h-52">
       <div>
         <h3 className="text-xl font-semibold text-center my-2">
           Color Contrast (Attention Grabbers)

@@ -41,7 +41,7 @@ export default function ColorCombination() {
   };
 
   return (
-    <div className="dark:text-white h-60">
+    <div className="dark:text-white h-52">
       <div>
         <h3 className="text-xl font-semibold text-center">
           Color Harmony (Pairing / Blends)

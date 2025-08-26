@@ -60,12 +60,15 @@ function RightSide() {
                         <h3 className="text-base  dark:text-white"><span className="font-bold">Color Name :</span>{` ${colorData?.name?.value || colorData?.name}`}</h3>
                     </div>
 
-                    <div className="grid grid-cols-2 text-base dark:text-white my-2 gap-4 justify-between ">
-                        <p className="flex justify-between items-center"><span className="font-bold">Hex:</span> {colorData?.hex?.value || colorData?.hex} <CopyComponent copied={colorData?.hex?.value || colorData?.hex} /></p>
-                        <p className="flex justify-between items-center">
-                            <span className="font-bold"> RGB:</span> {colorData?.rgb?.r}, {colorData?.rgb?.g}, {colorData?.rgb?.b}<CopyComponent />
-                        </p>
+                    <div className=" flex justify-between items-center text-base dark:text-white ">
+                        <p className=""><span className="font-bold">Hex:</span> {colorData?.hex?.value || colorData?.hex}</p> <CopyComponent copied={colorData?.hex?.value || colorData?.hex} />
+                       
                     </div>
+                     <div className="flex justify-between items-center text-base dark:text-white">
+                     <p className="">
+                            <span className="font-bold"> RGB:</span> {colorData?.rgb?.r}, {colorData?.rgb?.g}, {colorData?.rgb?.b}</p><CopyComponent />
+                        
+                        </div>
                     <div className="flex justify-between items-center text-base dark:text-white">
                         <p className="">
                             <span className="font-bold">HSL : </span>

@@ -34,6 +34,7 @@ useEffect(() => {
 }, [darkMode]);
 
   return (
+    <div className="mx-4">
     <nav className="w-full backdrop-blur-lg bg-white/30 rounded-full dark:bg-gray-200/50 shadow-md py-2 sm:py-4 px-3 sm:px-6 flex justify-between items-center">
       {/* Logo / Title */}
       <h1 className=" text-xl sm:text-2xl font-mono font-bold text-gray-800 dark:text-white">
@@ -51,7 +52,7 @@ useEffect(() => {
           <Moon className="w-5 h-5 text-gray-800" />
         )}
       </button>
-    </nav>
+    </nav></div>
   )
 }
 

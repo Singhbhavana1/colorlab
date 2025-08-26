@@ -19,7 +19,7 @@ function App() {
     bg-gradient-to-br from-[#e0c3fc] to-[#8ec5fc]
   dark:from-[#050505] dark:to-[#1a1a1a]">
     <div className="flex justify-center">
-      <div className="">
+      <div className="mt-5 mx-10">
         <Navbar className="h-10" />
       <div className="block md:flex lg:block xl:flex">
           <div className="mx-5 my-5 px-5 py-2 rounded-2xl backdrop-blur-lg bg-white/30 border dark:border-slate-800  dark:bg-[#111827] shadow-md dark:shadow-inner dark:shadow-blue-100 ">

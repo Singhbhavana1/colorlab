@@ -1,7 +1,7 @@
 {
   "name": "my-color-generater",
-  "private": true,
   "homepage": "https://Singhbhavana1.github.io/colorlab",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
